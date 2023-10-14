@@ -1,0 +1,31 @@
+//PRN: 22070123099
+//EXP.3
+//NAME: SANUSHA MENON
+
+//DISPLAYING DIGITS OF PRN IN SEPARATE LINES
+#include<iostream>
+using namespace std;
+int main()
+{
+    int prn;
+    int digit;
+    cout<<"Enter your PRN:"<<endl;
+    cin>>prn;
+    while (prn>0)
+    {
+        digit=prn%10;
+        cout<<digit<<endl;
+        prn=prn/10;
+    }
+}
+
+/*/OUTPUT
+Enter your PRN:
+23099
+9
+9
+0
+3
+2
+/*/
+
